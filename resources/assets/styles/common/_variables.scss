@@ -1,0 +1,48 @@
+/** Import Bootstrap functions */
+@import '~bootstrap/scss/functions';
+
+$primary: #ed216f;
+$secondary: #061028;
+$success: #7af25b;
+$info: #0f4c81;
+$warning: #ffff00;
+$danger: #ff3300;
+$light: #a2b8d4;
+$dark: #14202a;
+$darken: #0d1428;
+
+//
+
+$lightWeight: 300;
+$regularWeight: 400;
+$mediumWeight: 500;
+$semiBoldWeight: 600;
+$boldWeight: 700;
+$blackWeight: 900;
+
+/** Bootstrap navbar fix (https://git.io/fADqW) */
+$navbar-dark-toggler-icon-bg: none;
+$navbar-light-toggler-icon-bg: none;
+
+/** Fonts */
+$headings-font-family: 'tt_commons', serif;
+$font-family-sans-serif: $headings-font-family;
+$font-family-monospace: $headings-font-family;
+$font-family-base: $headings-font-family;
+$btn-font-family: $headings-font-family;
+//
+$headings-font-weight: $lightWeight;
+$font-weight-base: $lightWeight;
+$lead-font-weight: $boldWeight;
+$font-weight-light: $lightWeight;
+$btn-font-weight: $semiBoldWeight;
+$rubikMedium: $mediumWeight;
+//
+$font-size-base: .875rem;
+$line-height-base: 1.4;
+
+/** Layout settings **/
+$body-bg: #ffffff;
+$body-color: $secondary;
+
+//TO-DO PECZIS: Setup variables

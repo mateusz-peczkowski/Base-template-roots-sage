@@ -1,0 +1,32 @@
+a,
+a:hover {
+  text-decoration: none;
+}
+
+*,
+*:hover,
+*:focus,
+button,
+button:focus {
+  box-shadow: none;
+  outline: none;
+}
+
+.main-wrapper {
+  display: block;
+  position: relative;
+  margin: 0;
+  padding: 0;
+}
+
+.container.bigger {
+  max-width: 1920px;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}

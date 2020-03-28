@@ -1,0 +1,14 @@
+$font-path: '../fonts';
+
+/** Import variables */
+@import 'common/variables';
+
+/** Autoload all plugins */
+@import './autoload/**/*';
+
+/** Import layout styles */
+@import 'layouts/base';
+@import 'layouts/tinymce';
+
+/** Import components */
+@import 'components/wp-classes';
